@@ -4,10 +4,12 @@ body {
     flex-direction: column;
     margin: auto;
     max-width: 50em;
+    padding-left: 10px;
 }
 
 body section {
     overflow-y: auto;
+    padding-bottom: 40px;
 }
 
 body nav {
@@ -22,10 +24,11 @@ footer {
     color: black;
     margin: auto;
     max-width: 50em;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     padding-top: 5px;
     width: 100%;
     border-top: 1px solid grey;
+    background: white;
 }
 
 a {color: black; text-decoration: none;}         /* Unvisited link  */
